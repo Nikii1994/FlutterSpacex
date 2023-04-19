@@ -99,14 +99,4 @@ class DbHelper{
   }
 
 
-
-  // Future<List> getAllEmployees() async {
-  //   final db = await database;
-  //   final res = await db?.rawQuery("SELECT * FROM how_iq_work");
-  //
-  //   List<HowIqWorks> list =
-  //   res.isNotEmpty ? res.map((c) => HowIqWorks.fromJson(c)).toList() : [];
-  //
-  //   return list;
-  // }
 }
