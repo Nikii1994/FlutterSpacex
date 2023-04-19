@@ -14,7 +14,7 @@ class RocketService{
       print("response rockets: ${response.body}");
       return List<Rockets>.from((json.decode(response.body) as List).map((rocket) => Rockets.fromJson((rocket)))).toList();
     } else{
-      throw("Couldn't fetch movies");
+      throw("Couldn't fetch rockets");
     }
   }
 
